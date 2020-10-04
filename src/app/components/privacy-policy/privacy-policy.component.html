@@ -1,0 +1,37 @@
+
+<!-- Modal -->
+<div class="privacy" aria-labelledby="privacy-policy" *ngIf="isVisible">
+    <div class="privacy-content">
+      <div class="privacy-header">
+        <h1 class="privacy-title" >Can we store cookies?</h1>
+        <button type="button" (click)="isVisible=false" class="close" data-dismiss="privacy" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="privacy-body">
+        <p>We and our partners use technoogies, such as cookies, and process personal data, such as IP address and cookie identifieers, to personalize ads and content based on your interests, measure the performance of ads and content and derive insights about the audiences who saw ads and content.</p>
+        <p>Click below to consent to the use of this technology and the processing of your personal dta for these purposes. You can change your mind and change your consent choices at any time be returning to this site.</p>
+        <p>You can familiarize with your <a href="#">Privacy Policy</a></p>
+      </div>
+      <div class="privacy-footer row">
+        <div class="col-md-3">
+          <button type="button" (click)="isVisible=false" class="btn btn-success btn-lg" data-dismiss="privacy">Accept All</button>
+        </div>
+        <div class="col-md-3">
+        <button type="button" (click)="isVisible=false" class="btn btn-outline-secondary btn-lg">Save Settings</button>
+        </div>
+        <div class="col-md-6">
+          <div class="dropdown float-right">
+            <button class="btn btn-outline-secondary dropdown-toggle btn-lg" type="button" id="dropdownMenuButton" aria-haspopup="true" aria-expanded="false">
+              Customize
+            </button>
+            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+              <a class="dropdown-item" href="#">Action</a>
+              <a class="dropdown-item" href="#">Another action</a>
+              <a class="dropdown-item" href="#">Something else here</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+</div>

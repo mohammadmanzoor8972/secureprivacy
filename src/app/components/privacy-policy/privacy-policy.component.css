@@ -1,0 +1,32 @@
+.privacy{
+  width:100%;
+  padding:50px;
+  box-shadow: 1px 5px 10px 0px #bdbbbb;
+}
+
+.privacy-content {
+  padding:10px;
+}
+
+.privacy-header{
+margin-bottom: 1.5rem;
+}
+
+.privacy-title{
+  font-weight: bolder;
+}
+
+.privacy-header .close{
+  position: absolute;
+  top:30px;
+  right: 30px;
+}
+
+.privacy-body{
+  margin-bottom: 50px;
+  color: #8e8e8e;
+}
+
+.privacy-footer .btn-success,.privacy-footer .btn-outline-secondary{
+  width:100%;
+}
