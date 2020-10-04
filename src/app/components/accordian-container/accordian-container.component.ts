@@ -7,8 +7,8 @@ import { Component, OnInit, Input } from '@angular/core';
 })
 export class AccordianContainerComponent implements OnInit {
   @Input() title;
-  @Input() isToggle: boolean;
-  @Input() isCollapse: boolean;
+  @Input() isToggle= false;
+  @Input() isCollapse= false;
   constructor() { }
 
   ngOnInit(): void {

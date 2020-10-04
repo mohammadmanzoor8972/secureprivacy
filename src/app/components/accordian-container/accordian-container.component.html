@@ -1,7 +1,7 @@
 <div class="wrapper center-block">
   <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
   <div class="panel panel-default">
-    <div class="panel-heading" [ngClass]="isCollapse || 'active'" role="tab" (click)="toggle()">
+    <div class="panel-heading" [ngClass]="isCollapse == true ? 'active' : ''" role="tab" (click)="toggle()">
       <h4 class="panel-title" >
         <a role="button"  data-parent="#accordion" href="#collapseOne" aria-expanded="true" >
           <div class="checkbox switcher">
